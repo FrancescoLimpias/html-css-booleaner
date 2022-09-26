@@ -3,6 +3,7 @@
     margin: 0px;
 }
 
+/* HEADER  */
 body > header{
 
     /* Positioning */
@@ -17,7 +18,6 @@ body > header{
     /* Size  */
     height: 10vh;
 }
-
 #logoImage{
 
     /* Positioning */
@@ -28,12 +28,47 @@ body > header{
     /* Size  */
     height: 50%;
 }
+#credits{
+    color: gray;
+}
 
+/* MAIN  */
 main{
     margin: 10px;
 }
 
-#credits{
-    margin-top: 6px;
+#topImages img{
+    height: 20vh;
+}
+
+article > *{
+    margin-top: 1.2em;
+}
+
+/* FOOTER  */
+footer{
+    margin-top: 2em;
+}
+footer > span{
     color: gray;
+    font-size: 0.9em;
+}
+
+.relatedArticle{
+    position: relative;
+}
+.relatedArticle span{
+
+    /* Positioning  */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    /* Font  */
+    font-size: 600;
+    color: white;
+
+}
+.relatedArticle img{
+    width: 22%;
 }
