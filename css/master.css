@@ -12,11 +12,11 @@ body > header{
     /* Pattern */
     background-color: #4da1ff;
     background-image: url(../img/pattern.png);
-    background-size: 60%;   /* Is it correct? */
+    background-size: 40%;   /* Is it correct? */
     background-repeat: repeat;
 
     /* Size  */
-    height: 10vh;
+    height: 6vh;
 }
 #logoImage{
 
@@ -43,6 +43,23 @@ main{
 
 article > *{
     margin-top: 1.2em;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+/* Table  */
+table{
+    border-spacing: 0px;
+}
+thead {
+    border: 0px;
+    background-color: #4da1ff;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: #4da0ff88;
 }
 
 /* FOOTER  */
