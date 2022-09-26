@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body > header{
+
+    /* Positioning */
+    position: relative;
+
+    /* Pattern */
+    background-color: #4da1ff;
+    background-image: url(../img/pattern.png);
+    background-size: 60%;   /* Is it correct? */
+    background-repeat: repeat;
+
+    /* Size  */
+    height: 10vh;
+}
+
+#logoImage{
+
+    /* Positioning */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    /* Size  */
+    height: 50%;
+}
+
+main{
+    margin: 10px;
+}
+
+#credits{
+    margin-top: 6px;
+    color: gray;
+}
