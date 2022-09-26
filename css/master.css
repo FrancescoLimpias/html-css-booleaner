@@ -35,10 +35,11 @@ body > header{
 /* MAIN  */
 main{
     margin: 10px;
+    font-size: 0.8em;
 }
 
 #topImages img{
-    height: 20vh;
+    height: 22vh;
 }
 
 article > *{
@@ -60,6 +61,9 @@ thead {
 }
 tr:nth-child(odd){
     background-color: #4da0ff88;
+}
+td:last-child{
+    width: 50%;
 }
 
 /* FOOTER  */
