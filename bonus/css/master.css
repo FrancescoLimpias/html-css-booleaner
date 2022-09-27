@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* HEADER  */
+body > header{
+
+    /* Positioning */
+    position: relative;
+
+    /* Pattern */
+    background-color: #4da1ff;
+    background-image: url(../img/pattern.png);
+    background-size: 40%;   /* Is it correct? */
+    background-repeat: repeat;
+
+    /* Size  */
+    height: 6vh;
+}
+#logoImage{
+    margin-left: 20%;
+
+    /* Positioning */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    /* Size  */
+    height: 50%;
+}
+#credits{
+    color: gray;
+}
+
+/* MAIN  */
+main{
+    width: 60%;
+
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+}
+
+#topImages img{
+    height: 22vh;
+}
+
+article > *{
+    margin-top: 1.2em;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+/* Table  */
+table{
+    border-spacing: 0px;
+}
+thead {
+    border: 0px;
+    background-color: #4da1ff;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: #4da0ff88;
+}
+td:last-child{
+    width: 50%;
+}
+
+/* FOOTER  */
+footer{
+    margin-top: 2em;
+}
+footer > span{
+    color: gray;
+    font-size: 0.9em;
+}
+
+.relatedArticle{
+    position: relative;
+}
+.relatedArticle span{
+
+    /* Positioning  */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    /* Font  */
+    font-size: 600;
+    color: white;
+
+}
+.relatedArticle img{
+    width: 22%;
+}
